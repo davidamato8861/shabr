@@ -1,0 +1,57 @@
+ h1 {
+   color: #a2d3f8;
+ }
+ 
+  #main-balloon {
+      display: table;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.5)
+      ),
+        url('balloon-1.jpg') no-repeat center;
+      background-size: cover;
+    }
+ 
+   html,
+   body{
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .text-vertical-center {
+   text-align: center;
+   vertical-align: middle;
+   display: table-cell;
+   color: white;
+ }
+ 
+ @media only screen and (min-width: 768px) {
+   h1 {
+     font-size: 60px;
+   }
+   h2 {
+     font-size: 40px;
+   }
+ }
+ 
+ @media only screen and (min-width: 992px) {
+   h1 {
+     font-size: 80px;
+   }
+   h2 {
+     font-size: 60px;
+   }
+ }
+ 
+ @media only screen and (min-width: 1200px) {
+   h1 {
+     font-size: 100px;
+   }
+   h2 {
+     font-size: 80px;
+   }
+ }
+ 
+ 
