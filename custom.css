@@ -1,5 +1,9 @@
  h1 {
-   color: #a2d3f8;
+   color: #dfefff;
+ }
+ 
+ h2 {
+     color: #dfefff;
  }
  
   #main-balloon {
@@ -54,4 +58,7 @@
    }
  }
  
+ body {
+     background-color: #ff9933;
+ }
  
